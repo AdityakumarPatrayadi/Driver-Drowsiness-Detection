@@ -1,0 +1,10 @@
+install espeak
+Go to anacondapower shell follow the commands
+
+conda  create -n virenv
+conda activate virenv
+conda install -c conda-forge dlib
+conda install -c conda-forge imutils
+conda install -c anaconda scipy
+cd file_location
+python drowsiness_yawn.py
